@@ -4,7 +4,7 @@ Portfolio repository for selected work across AI systems, opportunity discovery,
 
 The main case for the current application context is **MarketForge / PRACA2**: an evidence-first AI discovery and decision-support system.
 
-## Primary Case: MarketForge / PRACA2
+## MarketForge / PRACA2
 
 [Open MarketForge case study](cases/marketforge-ai-system.md)
 
@@ -30,7 +30,7 @@ application decision
 feedback loop
 ```
 
-This case shows the strongest product/system thinking:
+The project shows the strongest product/system thinking in this portfolio:
 
 - search intent elicitation
 - multi-source discovery
@@ -41,17 +41,25 @@ This case shows the strongest product/system thinking:
 - application tracking and feedback
 - work-mechanics similarity instead of title-based matching
 
-## Supporting Technical Case: Synthetic Inspection Data Factory
+## Why This Case Matters
 
-[Open Synthetic Inspection case study](cases/synthetic-inspection-pipeline.md)
+MarketForge is designed for situations where the useful target is not captured by one simple keyword or job title.
 
-![Synthetic Inspection Data Factory](media/synthetic-inspection/01_synthetic_data_factory.svg)
+The system has to understand a deeper pattern:
 
-A public, non-confidential portfolio explanation of an end-to-end synthetic visual-data pipeline for AI-based inspection.
+```text
+real work mechanics
+↓
+source evidence
+↓
+candidate context
+↓
+practical decision
+```
 
-This supporting case shows the technical side of my profile: 3D simulation, rendering, synthetic data, computer-vision outputs, spatial reasoning and dataset-quality review.
+That is the same kind of product logic needed in AI systems for spatial analysis, architecture, real estate, digital twins, research discovery and other domains where the system must preserve evidence, compare alternatives and support real decisions.
 
-## Portfolio Map
+## Additional Case Studies
 
 | Priority | Area | Case Study | Purpose |
 | --- | --- | --- | --- |
