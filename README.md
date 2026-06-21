@@ -4,7 +4,13 @@ Selected work across AI systems, synthetic visual data, 3D simulation, rendering
 
 ## MarketForge / PRACA2
 
-<img src="media/marketforge/00_marketforge_portfolio_board.webp" alt="MarketForge real product screenshots with annotated product flow" width="100%">
+<img src="media/marketforge/00_marketforge_hero.webp" alt="MarketForge evidence-first AI discovery system overview" width="100%">
+
+<img src="media/marketforge/01_job_review_breakdown.webp" alt="MarketForge job review workspace with annotated opportunity review logic" width="100%">
+
+<img src="media/marketforge/02_decision_memory_breakdown.webp" alt="MarketForge human decision memory and role-specific review" width="100%">
+
+<img src="media/marketforge/03_application_tracking_loop.webp" alt="MarketForge application tracking loop with Gmail feedback and timeline" width="100%">
 
 **MarketForge is an evidence-first AI discovery and application intelligence system.**
 
