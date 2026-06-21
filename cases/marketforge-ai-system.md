@@ -1,7 +1,5 @@
 # MarketForge / PRACA2 — AI Opportunity Discovery System
 
-![MarketForge Closed Loop](../media/marketforge/01_closed_loop_system.svg)
-
 ## One-Sentence Summary
 
 MarketForge is an evidence-first AI system for discovering, reviewing and tracking professional opportunities by work-mechanics similarity, not just by job titles.
@@ -16,6 +14,34 @@ It is not a generic job-search scraper and not a chatbot wrapper. It is a closed
 - **Design principle:** preserve raw evidence before interpretation.
 - **Product loop:** intent -> evidence -> decision -> application -> response -> better next search.
 
+## Product Flow
+
+```text
+User intent
+↓
+Search Brief Builder
+↓
+Search Generator
+↓
+DeepDiscovery
+↓
+Job Intake
+↓
+Raw Evidence Store
+↓
+Candidate Memory
+↓
+Local Semantic Review
+↓
+Human Decision
+↓
+Application Tracker
+↓
+Gmail / response feedback
+↓
+Better next search
+```
+
 ## Why I Built It
 
 My target profile is not well described by one clean label such as "AI engineer", "3D artist" or "data scientist".
@@ -24,17 +50,19 @@ A more accurate description is a work pattern:
 
 ```text
 realistic 3D simulation
--> synthetic visual data
--> computer-vision-ready outputs
--> spatial / visual reasoning
--> practical AI product context
+↓
+synthetic visual data
+↓
+computer-vision-ready outputs
+↓
+spatial / visual reasoning
+↓
+practical AI product context
 ```
 
 Normal job boards search titles. MarketForge searches for similarity between this work pattern and the real work described in opportunities.
 
 ## System Architecture
-
-![MarketForge Architecture Map](../media/marketforge/02_architecture_map.svg)
 
 | Layer | Role in the system | Why it matters |
 | --- | --- | --- |
@@ -99,12 +127,18 @@ The transferable pattern is:
 
 ```text
 vague real-world intent
--> structured brief
--> source discovery
--> raw evidence
--> semantic interpretation
--> user decision
--> feedback loop
+↓
+structured brief
+↓
+source discovery
+↓
+raw evidence
+↓
+semantic interpretation
+↓
+user decision
+↓
+feedback loop
 ```
 
 This is relevant far beyond job search. The same product logic can be applied to architecture, real estate, retail layout, spatial planning, research discovery, digital twins and other domains where the system must preserve evidence, compare alternatives and support a practical decision.
@@ -113,4 +147,4 @@ This is relevant far beyond job search. The same product logic can be applied to
 
 This public case study does not include private email data, real application logs, API keys, private candidate profile files or personal job-search records.
 
-The diagrams are sanitized portfolio explanations of the system architecture and product logic.
+The final visual version of this case should use real sanitized product screenshots, not generated interface mockups.
