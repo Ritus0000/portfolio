@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f8fafc"/><stop offset="100%" stop-color="#eef3f8"/></linearGradient>
+    <linearGradient id="a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#0b4f8c"/><stop offset="100%" stop-color="#2e8b57"/></linearGradient>
+    <style>
+      .k{font:700 16px Arial,sans-serif;fill:#0b4f8c;letter-spacing:3px}.t{font:800 50px Arial,sans-serif;fill:#0c1724}.s{font:400 23px Arial,sans-serif;fill:#5f6b7a}.h{font:800 23px Arial,sans-serif;fill:#0c1724}.b{font:400 17px Arial,sans-serif;fill:#44515f}.small{font:400 15px Arial,sans-serif;fill:#647386}.card{fill:#fff;stroke:#d3dbe6;stroke-width:1.25}.dark{fill:#0d1622}.line{fill:none;stroke:url(#a);stroke-width:4;stroke-linecap:round;marker-end:url(#arrow)}.chip{fill:#edf5ff;stroke:#c8dced}.green{fill:#eef7f2;stroke:#c5dfd0}.mono{font:500 15px Consolas,monospace;fill:#d5e2ef}.num{font:800 18px Arial,sans-serif;fill:#fff}
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#2e8b57"/></marker>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="72" y="82" class="k">ARCHITECTURE MAP</text>
+  <text x="72" y="142" class="t">Evidence-first AI discovery pipeline</text>
+  <text x="75" y="184" class="s">Designed around raw evidence, candidate memory, local reasoning and human-in-the-loop decisions.</text>
+  <g transform="translate(70 270)">
+    <rect class="card" x="0" y="0" width="270" height="360" rx="16"/><circle cx="34" cy="38" r="18" fill="#0b4f8c"/><text x="29" y="44" class="num">1</text><text x="62" y="46" class="h">Intent layer</text><text x="28" y="90" class="b">Search Brief Builder</text><text x="28" y="122" class="small">- direction from user</text><text x="28" y="148" class="small">- exclusions and preferences</text><text x="28" y="174" class="small">- precision vs exploration</text><text x="28" y="200" class="small">- approval for new directions</text><rect class="chip" x="28" y="282" width="204" height="38" rx="11"/><text x="48" y="306" class="small">human-in-the-loop</text>
+    <rect class="card" x="315" y="0" width="270" height="360" rx="16"/><circle cx="349" cy="38" r="18" fill="#0b4f8c"/><text x="344" y="44" class="num">2</text><text x="377" y="46" class="h">Discovery layer</text><text x="343" y="90" class="b">Search Generator + DeepDiscovery</text><text x="343" y="122" class="small">- query seeds and routes</text><text x="343" y="148" class="small">- job boards and ATS pages</text><text x="343" y="174" class="small">- company career pages</text><text x="343" y="200" class="small">- source lineage</text><rect class="chip" x="343" y="282" width="190" height="38" rx="11"/><text x="363" y="306" class="small">multi-source retrieval</text>
+    <rect class="card" x="630" y="0" width="270" height="360" rx="16"/><circle cx="664" cy="38" r="18" fill="#0b4f8c"/><text x="659" y="44" class="num">3</text><text x="692" y="46" class="h">Evidence layer</text><text x="658" y="90" class="b">Job Intake + raw-first store</text><text x="658" y="122" class="small">- preserve original text</text><text x="658" y="148" class="small">- extract factual metadata</text><text x="658" y="174" class="small">- semantic chunks</text><text x="658" y="200" class="small">- quality flags</text><rect class="chip" x="658" y="282" width="185" height="38" rx="11"/><text x="678" y="306" class="small">no fake certainty</text>
+    <rect class="card" x="945" y="0" width="270" height="360" rx="16"/><circle cx="979" cy="38" r="18" fill="#2e8b57"/><text x="974" y="44" class="num">4</text><text x="1007" y="46" class="h">Reasoning layer</text><text x="973" y="90" class="b">Candidate Memory + local models</text><text x="973" y="122" class="small">- work-mechanics similarity</text><text x="973" y="148" class="small">- capability evidence</text><text x="973" y="174" class="small">- manual-check questions</text><text x="973" y="200" class="small">- local semantic review</text><rect class="green" x="973" y="282" width="205" height="38" rx="11"/><text x="993" y="306" class="small">candidate-aware analysis</text>
+    <rect class="card" x="1260" y="0" width="270" height="360" rx="16"/><circle cx="1294" cy="38" r="18" fill="#2e8b57"/><text x="1289" y="44" class="num">5</text><text x="1322" y="46" class="h">Action layer</text><text x="1288" y="90" class="b">Applications + Gmail loop</text><text x="1288" y="122" class="small">- role-adapted drafts</text><text x="1288" y="148" class="small">- application tracker</text><text x="1288" y="174" class="small">- response signals</text><text x="1288" y="200" class="small">- better next searches</text><rect class="green" x="1288" y="282" width="192" height="38" rx="11"/><text x="1308" y="306" class="small">closed feedback loop</text>
+    <path class="line" d="M270 180 H306"/><path class="line" d="M585 180 H621"/><path class="line" d="M900 180 H936"/><path class="line" d="M1215 180 H1251"/>
+  </g>
+  <g transform="translate(120 700)">
+    <rect class="dark" x="0" y="0" width="1360" height="104" rx="18"/>
+    <text x="32" y="38" style="font:800 24px Arial,sans-serif;fill:#f8fbff">Local-first reasoning stack</text>
+    <text x="32" y="72" class="mono">nomic-embed-text -> semantic retrieval     qwen2.5:7b -> local reasoning     llama3.2:3b -> fallback</text>
+    <text x="1030" y="38" style="font:700 18px Arial,sans-serif;fill:#a7f3d0">External providers only when explicitly approved.</text>
+  </g>
+</svg>
