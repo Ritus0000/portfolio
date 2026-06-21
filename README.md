@@ -8,8 +8,6 @@ The main case for the current application context is **MarketForge / PRACA2**: a
 
 [Open MarketForge case study](cases/marketforge-ai-system.md)
 
-![MarketForge Closed Loop](media/marketforge/01_closed_loop_system.svg)
-
 MarketForge / PRACA2 is a personal AI discovery and decision-support system for finding, reviewing and tracking professional opportunities by work-mechanics similarity rather than simple job titles.
 
 It is not a generic job-search scraper and not a chatbot wrapper. It is a modular AI product system:
@@ -96,4 +94,4 @@ See [docs/confidentiality.md](docs/confidentiality.md).
 
 ## Status
 
-This repository is being built into a public portfolio. The current priority is to make **MarketForge / PRACA2** immediately understandable as the main AI product/system case.
+This repository is being built into a public portfolio. The current priority is to make **MarketForge / PRACA2** immediately understandable as the main AI product/system case using real product screenshots, not generated interface mockups.
