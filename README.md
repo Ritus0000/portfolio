@@ -1,97 +1,44 @@
 # Dzianis Rytus Portfolio
 
-Portfolio repository for selected work across AI systems, opportunity discovery, synthetic visual data, 3D simulation, rendering, architecture, spatial design and technical product thinking.
-
-The main case for the current application context is **MarketForge / PRACA2**: an evidence-first AI discovery and decision-support system.
+Selected work across AI systems, synthetic visual data, 3D simulation, rendering, architecture, spatial design and technical product thinking.
 
 ## MarketForge / PRACA2
 
-[Open MarketForge case study](cases/marketforge-ai-system.md)
+<img src="media/marketforge/00_marketforge_portfolio_board.webp" alt="MarketForge real product screenshots with annotated product flow" width="100%">
 
-MarketForge / PRACA2 is a personal AI discovery and decision-support system for finding, reviewing and tracking professional opportunities by work-mechanics similarity rather than simple job titles.
+**MarketForge is an evidence-first AI discovery and application intelligence system.**
 
-It is not a generic job-search scraper and not a chatbot wrapper. It is a modular AI product system:
+It is not a generic job-search scraper and not a chatbot wrapper. It is a product system that turns search intent into inspectable evidence, candidate-aware review, human decision memory, application preparation and response tracking.
 
-```text
-intent
-↓
-search strategy
-↓
-raw evidence
-↓
-candidate memory
-↓
-semantic review
-↓
-application decision
-↓
-feedback loop
-```
+[Open the full MarketForge case study](cases/marketforge-ai-system.md)
 
-The project shows the strongest product/system thinking in this portfolio:
+What the system shows:
 
-- search intent elicitation
-- multi-source discovery
-- raw-first evidence preservation
-- candidate memory
-- local semantic review
-- human-in-the-loop decisions
-- application tracking and feedback
-- work-mechanics similarity instead of title-based matching
-
-## Why This Case Matters
-
-MarketForge is designed for situations where the useful target is not captured by one simple keyword or job title.
-
-The system has to understand a deeper pattern:
-
-```text
-real work mechanics
-↓
-source evidence
-↓
-candidate context
-↓
-practical decision
-```
-
-That is the same kind of product logic needed in AI systems for spatial analysis, architecture, real estate, digital twins, research discovery and other domains where the system must preserve evidence, compare alternatives and support real decisions.
+- a large opportunity set reduced into inspectable role cards
+- review logic based on work mechanics, not only job titles
+- visible uncertainty through manual-check flags
+- human decisions stored as reusable system memory
+- application documents and status attached to each vacancy
+- Gmail confirmations and replies feeding the application tracker
 
 ## Additional Case Studies
 
 | Priority | Area | Case Study | Purpose |
 | --- | --- | --- | --- |
-| 1 | AI Systems / Product Thinking | [MarketForge / PRACA2](cases/marketforge-ai-system.md) | Show search architecture, evidence preservation, local AI workflows, decision support and product reasoning. |
-| 2 | Synthetic Data / Computer Vision | [Synthetic Inspection Pipeline](cases/synthetic-inspection-pipeline.md) | Show an end-to-end 3D-to-ground-truth workflow without exposing confidential work data. |
-| 3 | 3D / Rendering / Technical Art | [3D Rendering and Visual Systems](cases/3d-rendering-visual-systems.md) | Show materials, environments, visual realism and game/real-time-adjacent direction. |
-| 4 | Architecture / Spatial Design | [Architecture and Concept Design](cases/architecture-concept-design.md) | Show spatial thinking, composition, technical architecture background and large-scale visual projects. |
-| 5 | Scientific / Biomedical AI | [Scientific and Biomedical AI](cases/scientific-biomedical-ai.md) | Show academic AI, EEG thesis direction, biotechnology background and scientific communication. |
+| 1 | AI Systems / Product Thinking | [MarketForge / PRACA2](cases/marketforge-ai-system.md) | Evidence-first discovery, candidate memory, semantic review, application tracking and feedback. |
+| 2 | Synthetic Data / Computer Vision | [Synthetic Inspection Pipeline](cases/synthetic-inspection-pipeline.md) | End-to-end 3D-to-ground-truth workflow without exposing confidential work data. |
+| 3 | 3D / Rendering / Technical Art | [3D Rendering and Visual Systems](cases/3d-rendering-visual-systems.md) | Materials, environments, visual realism and game/real-time-adjacent direction. |
+| 4 | Architecture / Spatial Design | [Architecture and Concept Design](cases/architecture-concept-design.md) | Spatial thinking, composition, technical architecture background and large-scale visual projects. |
+| 5 | Scientific / Biomedical AI | [Scientific and Biomedical AI](cases/scientific-biomedical-ai.md) | Academic AI, EEG thesis direction, biotechnology background and scientific communication. |
 
 ## Core Direction
 
-I work at the intersection of:
-
-- AI systems and automation tools
-- evidence-first discovery and decision-support workflows
-- synthetic 3D data generation for computer vision
-- 3D simulation and rendering pipelines
-- architecture, spatial design and visual storytelling
-- scientific and biomedical AI
+I work at the intersection of AI systems, synthetic 3D data, rendering pipelines, architecture, spatial design and scientific AI.
 
 The common thread is the ability to turn complex spatial, visual or technical problems into structured systems that can be generated, inspected, explained and improved.
 
 ## Confidentiality Policy
 
-Some real work is connected to university or laboratory projects and cannot be published directly. Public case studies in this repository use one of these forms:
-
-- public self-created demo assets
-- simplified reproductions of workflow mechanics
-- high-level diagrams without internal parameters
-- sanitized screenshots or visuals only when explicitly approved
-- original portfolio text written specifically for public use
+Some real work is connected to university or laboratory projects and cannot be published directly. Public case studies use self-created demo assets, simplified workflow reproductions, high-level diagrams, sanitized screenshots or original portfolio text written for public use.
 
 See [docs/confidentiality.md](docs/confidentiality.md).
-
-## Status
-
-This repository is being built into a public portfolio. The current priority is to make **MarketForge / PRACA2** immediately understandable as the main AI product/system case using real product screenshots, not generated interface mockups.
