@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Heavy local outputs should be selected manually before publishing.
+outputs/
+renders/
+exports/
